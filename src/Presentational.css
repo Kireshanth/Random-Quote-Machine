@@ -1,0 +1,82 @@
+/* By Kireshanth T */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+:root {
+  --color-scheme : red;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-scheme);
+}
+
+#quote-box{
+  background: white;
+  width: 500px;
+  max-height: 500px;
+  padding: 1em 3em;
+  box-shadow: 5px 5px black;
+}
+
+#text{
+  min-height: 40%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-scheme); 
+}
+
+#author{
+  min-height: 20%;
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: var(--color-scheme);
+  margin: 0.5em 0 0.5em 0;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#credit{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: white;
+  margin-top: 0.5em;
+}
+
+#credit a{
+  text-decoration: none;
+  color: white;
+}
+
+#new-quote{
+  background-color: var(--color-scheme) !important;
+  border-color: var(--color-scheme) !important;
+  border-radius: 3px;
+  font-size: 1.2em;
+  color: white;
+  padding: 10px 10px;
+}
+
+.fa-twitter-square{
+  color: var(--color-scheme) !important;
+  border-color: var(--color-scheme) !important;
+  font-size: 3em;
+}
